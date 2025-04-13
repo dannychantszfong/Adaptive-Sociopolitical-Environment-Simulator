@@ -34,7 +34,7 @@ This project simulates a sociopolitical environment with a focus on the United K
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/dannychantszfong/Adaptive-Sociopolitical-Environment-Simulator.git
 ```
 
 2. Install required dependencies:
@@ -77,12 +77,37 @@ The population system (`people_generation.py`) handles:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owner of this repository before making a change.
 
 ## License
 
-[Specify License]
+This project is licensed for personal and academic use only. Commercial use is not permitted. You are free to:
+- Download and use the software
+- Modify the code
+- Share the software
+
+Under the following conditions:
+- You must give appropriate credit by including the original author's name (Danny Chan)
+- You may not use this software for commercial purposes
+- You must include this license notice in any copy or modification of the software
 
 ## Contact
 
-[Your Contact Information] 
+- **Author**: Danny Chan
+- **Email**: w1819419@my.westminster.ac.uk
+- **LinkedIn**: [Tsz Fong Chan](https://www.linkedin.com/in/tsz-fong-chan-7201b7269/)
+- **GitHub**: [@dannychantszfong](https://github.com/dannychantszfong)
+
+## Acknowledgments
+
+- University of Westminster
+- This project was developed as part of a final year project
+
+## Citation
+
+If you use this software in your research or project, please cite it as:
+
+```
+Chan, T.F. (2024). Adaptive Sociopolitical Environment Simulator. 
+GitHub repository: https://github.com/dannychantszfong/Adaptive-Sociopolitical-Environment-Simulator
+``` 
