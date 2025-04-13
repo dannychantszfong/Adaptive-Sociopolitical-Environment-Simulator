@@ -35,19 +35,49 @@ This project simulates a sociopolitical environment with a focus on the United K
 ## Prerequisites
 
 ### System Requirements
-- Python 3.x
-- Windows/Linux/MacOS
+- Python 3.8 or higher
+- 4GB RAM minimum (8GB recommended)
+- 1GB free disk space
+
+### Operating System-Specific Requirements
+
+#### Windows
+- Windows 10 or later
+- Microsoft Visual C++ 14.0 or greater
+```bash
+# Install Visual C++ Build Tools
+# Download from: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+```
+
+#### macOS
+- macOS 10.14 or later
+- Xcode Command Line Tools
+```bash
+# Install Command Line Tools
+xcode-select --install
+```
+
+#### Linux
+- Any modern Linux distribution
+- Required development packages:
+```bash
+# Ubuntu/Debian
+sudo apt-get update
+sudo apt-get install python3-dev python3-pip build-essential
+
+# Fedora
+sudo dnf install python3-devel python3-pip gcc
+```
 
 ### Required Python Packages
+See `requirements.txt` for specific version requirements:
 ```
-numpy
-pandas
-scikit-learn
-tkinter
-threading
-datetime
-json
-hashlib
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+tk>=8.6
+python-dateutil>=2.8.2
+hashlib>=20081119
 ```
 
 ## Installation
@@ -55,14 +85,26 @@ hashlib
 1. Clone the repository:
 ```bash
 git clone https://github.com/dannychantszfong/Adaptive-Sociopolitical-Environment-Simulator.git
+cd Adaptive-Sociopolitical-Environment-Simulator
 ```
 
-2. Install required dependencies:
+2. Create and activate a virtual environment (recommended):
+```bash
+# Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Verify installation:
+4. Verify installation:
 ```bash
 python -c "import numpy; import pandas; import sklearn"
 ```
